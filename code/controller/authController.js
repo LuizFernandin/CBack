@@ -9,8 +9,8 @@ router.post('/register', async (req, res) => {
         if (await Pessoa.findOne({ email }))
             return res.status(400).send({ error: 'Usuario já existente!' });
 
-        const Pessoa = await Pessoa.create(req.body);
-        return res.send({ player });
+        const pessoa = await Pessoa.create(req.body);
+        return res.send({ pessoa });
     } catch (error) {
         return res.status(400).send({ error: 'Falha de Registro!' });
     }
