@@ -5,6 +5,7 @@ const PessoaSchema = new mongoose.Schema({
     name: {type: String,required: true,},
     email: {type: String,unique: true,required: true,lowercase: true,},
     password: {type: String,required: true,select: false,},
+    adm: {type: Boolean,default: false,},
     namePai: {type: String,required: true,},
     nameMae: {type: String,required: true,},
     createdAt: {type: Date,default: Date.now,},
