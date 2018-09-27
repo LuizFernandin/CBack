@@ -1,8 +1,8 @@
 # CBack
 
-BACKENDE DE UMA PAROQUIA
+BACK-END DE UMA PAROQUIA
 
-LINK DO FRONTEND EM ANGULAR - https://github.com/peedroaugustto/projetoCrismaPDS2
+LINK DO FRONT-END EM ANGULAR - https://github.com/peedroaugustto/projetoCrismaPDS2
 
 TECNOLOGIAS:
 - NODEJS
